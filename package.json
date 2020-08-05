@@ -1,0 +1,33 @@
+{
+  "name": "jest-dir-snapshot",
+  "version": "0.0.1",
+  "description": "Jest matcher for directory snapshot",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "keywords": [],
+  "author": "Wei Zhu <yesmeck@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.8",
+    "@types/lodash": "^4.14.158",
+    "@types/node": "^14.0.27",
+    "jest": "^26.2.2",
+    "ts-jest": "^26.1.4",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "eol": "^0.9.1",
+    "fs-readdir-recursive": "^1.1.0",
+    "jest-diff": "^26.2.0",
+    "lodash": "^4.17.19",
+    "sander": "^0.6.0"
+  }
+}
